@@ -6,6 +6,8 @@ on:
       - synchronize
       - reopened
       - edited
+    paths-ignore:
+      - "**/.md"
     branches:
       - main
   workflow_dispatch:
